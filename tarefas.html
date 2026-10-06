@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas e Entregas - Canvas LMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Canvas LMS</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Painel / Dashboard</a></li>
+                <li><a href="cursos.html">Meus Cursos</a></li>
+                <li><a href="disciplina.html">Página da Disciplina</a></li>
+                <li><a href="tarefas.html" class="active">Tarefas & Entregas</a></li>
+                <li><a href="notas.html">Notas & Boletim</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+                <li><a href="perfil.html">Perfil do Usuário</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+            <h1>Tarefas e Submissões</h1>
+        </header>
+
+        <section class="card">
+            <h2>Envio de Trabalho: LMS Fictício HTML5/CSS3</h2>
+            <p><strong>Prazo:</strong> 15 de Outubro às 23:59</p>
+            <p><strong>Status:</strong> <span class="badge badge-warning">Pendente de Envio</span></p>
+            
+            <form action="#" method="post" style="margin-top: 20px;">
+                <div class="form-group">
+                    <label for="arquivo">Selecione o arquivo do projeto (.zip):</label>
+                    <input type="file" id="arquivo" name="arquivo" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentarios">Comentários do Aluno:</label>
+                    <textarea id="comentarios" rows="4" placeholder="Observações sobre o trabalho..."></textarea>
+                </div>
+                <button type="submit">Enviar Tarefa</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Cursos - Canvas LMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Canvas LMS</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Painel / Dashboard</a></li>
+                <li><a href="cursos.html" class="active">Meus Cursos</a></li>
+                <li><a href="disciplina.html">Página da Disciplina</a></li>
+                <li><a href="tarefas.html">Tarefas & Entregas</a></li>
+                <li><a href="notas.html">Notas & Boletim</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+                <li><a href="perfil.html">Perfil do Usuário</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+            <h1>Meus Cursos</h1>
+            <p>Lista completa de disciplinas matriculadas e histórico acadêmico.</p>
+        </header>
+
+        <section class="grid-cards">
+            <article class="card card-course">
+                <h3>Desenvolvimento Web</h3>
+                <p><strong>Status:</strong> <span class="badge badge-success">Em Andamento</span></p>
+                <p>Professor: Carlos Eduardo</p>
+                <progress value="75" max="100" style="width: 100%; margin: 10px 0;"></progress>
+                <a href="disciplina.html">Ver Conteúdo</a>
+            </article>
+
+            <article class="card card-course">
+                <h3>Arquitetura de Computadores</h3>
+                <p><strong>Status:</strong> <span class="badge badge-success">Em Andamento</span></p>
+                <p>Professora: Maria Silva</p>
+                <progress value="40" max="100" style="width: 100%; margin: 10px 0;"></progress>
+                <a href="disciplina.html">Ver Conteúdo</a>
+            </article>
+
+            <article class="card card-course">
+                <h3>Lógica de Programação</h3>
+                <p><strong>Status:</strong> <span class="badge badge-success">Concluído</span></p>
+                <p>Professor: André Souza</p>
+                <progress value="100" max="100" style="width: 100%; margin: 10px 0;"></progress>
+                <a href="disciplina.html">Ver Histórico</a>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

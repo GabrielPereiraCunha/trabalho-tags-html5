@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário - Canvas LMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Canvas LMS</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Painel / Dashboard</a></li>
+                <li><a href="cursos.html">Meus Cursos</a></li>
+                <li><a href="disciplina.html">Página da Disciplina</a></li>
+                <li><a href="tarefas.html">Tarefas & Entregas</a></li>
+                <li><a href="notas.html">Notas & Boletim</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+                <li><a href="perfil.html" class="active">Perfil do Usuário</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+            <h1>Perfil do Aluno</h1>
+            <p>Gerencie suas informações pessoais e preferências da conta.</p>
+        </header>
+
+        <section class="card">
+            <h2>Dados Pessoais</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" value="Gabriel Pereira Cunha">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail Acadêmico:</label>
+                    <input type="email" id="email" name="email" value="gabriel.cunha@aluno.edu.br">
+                </div>
+
+                <div class="form-group">
+                    <label for="matricula">Matrícula:</label>
+                    <input type="text" id="matricula" name="matricula" value="2026100482" disabled style="background-color: #eef2f5;">
+                </div>
+
+                <div class="form-group">
+                    <label for="curso">Curso Atual:</label>
+                    <input type="text" id="curso" name="curso" value="Análise e Desenvolvimento de Sistemas" disabled style="background-color: #eef2f5;">
+                </div>
+
+                <div class="form-group">
+                    <label for="bio">Biografia / Apresentação:</label>
+                    <textarea id="bio" name="bio" rows="3">Estudante de desenvolvimento web e arquitetura de sistemas com foco em tecnologias front-end e back-end.</textarea>
+                </div>
+
+                <button type="submit">Salvar Alterações</button>
+            </form>
+        </section>
+
+        <section class="card" style="margin-top: 20px;">
+            <h2>Configurações de Notificação</h2>
+            <form>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" checked style="width: auto;"> Receber avisos de prazos por e-mail
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" checked style="width: auto;"> Receber notificações de novas notas lançadas
+                    </label>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto e Mídia - Guia HTML5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Guia HTML5</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="texto.html" class="active">Texto & Mídia</a></li>
+                    <li><a href="listas-tabelas.html">Listas & Tabelas</a></li>
+                    <li><a href="formularios.html">Formulários</a></li>
+                    <li><a href="css-layout.html">CSS3 Layout</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Tags de Formatação de Texto</h2>
+            <p><strong>Exemplo de &lt;strong&gt;:</strong> Texto em negrito com importância semântica.</p>
+            <p><em>Exemplo de &lt;em&gt;:</em> Texto em itálico com ênfase.</p>
+            <p><mark>Exemplo de &lt;mark&gt;:</mark> Texto destacado com marca-texto.</p>
+            <p>Exemplo de citação curta com <code>&lt;q&gt;</code>: <q>A simplicidade é o último grau de sofisticação.</q></p>
+            <blockquote>
+                Exemplo de &lt;blockquote&gt;: Utilizado para blocos de citações longas extraídas de outras fontes.
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>Incorporação de Mídia</h2>
+            <h3>Áudio NATIVO com &lt;audio&gt;</h3>
+            <audio controls>
+                <source src="audio-exemplo.mp3" type="audio/mpeg">
+                Seu navegador não suporta a tag de áudio.
+            </audio>
+
+            <h3 style="margin-top: 15px;">Vídeo NATIVO com &lt;video&gt;</h3>
+            <video width="320" height="240" controls>
+                <source src="video-exemplo.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabalho Acadêmico - Desenvolvimento Web | HTML5 e CSS3</p>
+    </footer>
+</body>
+</html>

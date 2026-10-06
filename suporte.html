@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Canvas LMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Canvas LMS</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Painel / Dashboard</a></li>
+                <li><a href="cursos.html">Meus Cursos</a></li>
+                <li><a href="disciplina.html">Página da Disciplina</a></li>
+                <li><a href="tarefas.html">Tarefas & Entregas</a></li>
+                <li><a href="notas.html">Notas & Boletim</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+                <li><a href="perfil.html">Perfil do Usuário</a></li>
+                <li><a href="suporte.html" class="active">Suporte</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+            <h1>Atendimento e Suporte Acadêmico</h1>
+            <p>Dúvidas frequentes e abertura de chamados técnicos.</p>
+        </header>
+
+        <section class="card">
+            <h2>Perguntas Frequentes (FAQ)</h2>
+            <details style="margin-bottom: 10px; cursor: pointer;">
+                <summary><strong>Como envio um trabalho fora do prazo?</strong></summary>
+                <p style="margin-top: 8px;">Submissões atrasadas dependem da autorização prévia do professor responsável pela disciplina.</p>
+            </details>
+            <details style="margin-bottom: 10px; cursor: pointer;">
+                <summary><strong>Como solicitar revisão de nota?</strong></summary>
+                <p style="margin-top: 8px;">Você pode abrir um chamado abaixo selecionando o assunto "Revisão de Nota" para a secretaria acadêmica.</p>
+            </details>
+        </section>
+
+        <section class="card" style="margin-top: 20px;">
+            <h2>Abrir Chamado Técnico</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto">
+                        <option value="duvida">Dúvida no Ambiente Virtual</option>
+                        <option value="nota">Solicitação de Revisão de Nota</option>
+                        <option value="tecnico">Problema Técnico / Erro na Plataforma</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Descrição do Problema:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Descreva em detalhes o que está acontecendo..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Chamado</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
